@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+*/node_modules/
+go.mod
+go.sum
+*/go.mod
+*/go.sum
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Build
+dist/
+*/dist/
+build/
+*/build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+
+# Test coverage
+coverage/
+*.out
+
+# Temp
+tmp/
+tmp/
+.temp/

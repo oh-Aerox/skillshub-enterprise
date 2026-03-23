@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(mammoth:*)",
+      "Bash(cd:*)",
+      "Bash(find . -type f \\\\\\(-name *.go -o -name *.ts -o -name *.tsx -o -name *.py -o -name *.sql -o -name *.json -o -name *.yml -o -name *.md -o -name Dockerfile -o -name *.html -o -name *.css -o -name *.mod \\\\\\))",
+      "Bash(find . -type f \\\\\\(-name *.go -o -name *.ts -o -name *.tsx -o -name *.py -o -name *.sql -o -name *.json -o -name *.yml -o -name *.md -o -name Dockerfile -o -name *.html -o -name *.css -o -name *.mod -o -name Makefile \\\\\\) ! -path ./.claude/* ! -path ./node_modules/*)",
+      "Bash(git init:*)",
+      "Bash(git remote:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}
